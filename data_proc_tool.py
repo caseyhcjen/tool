@@ -12,4 +12,3 @@ def outliers_whiskers(feature_name=None, df=None, l_whis=1.5, u_whis=1.5):
     lower_bound = np.min(wisklo)
     upper_bound = np.max(wiskhi)
     return (lower_bound, upper_bound)
-    # Need to add dwell time (total time is more releated to dwell time)
